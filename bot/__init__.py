@@ -64,14 +64,12 @@ START_COMMAND = get_config("START_COMMAND", "start")
 BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
 # Owner Name
 OWNER_NAME = get_config("OWNER_NAME", "saya")
-# Owner Id
-OWNER_ID = get_config("OWNER_ID", "saya")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
     "Selamat datang 😊\n"
-    f"Bot ini dapat digunakan untuk menghubungi {OWNER_NAME}(tg://user?id={OWNER_ID})\n\n"
+    f"Bot ini dapat digunakan untuk menghubungi {OWNER_NAME}(tg://user?id={AUTH_CHANNEL})\n\n"
     "Jangan melakukan spam ya 😉"
-    f"Tunggu {OWNER_NAME}(tg://user?id={OWNER_ID}) membaca pesan anda😁\n\n"
+    f"Tunggu {OWNER_NAME}(tg://user?id={AUTH_CHANNEL}) membaca pesan anda😁\n\n"
     "Repo bot klik [disini](https://github.com/fjgaming212/Pm-Robot)"
 )
 # /start message when other users start your bot
