@@ -12,5 +12,6 @@ There is an [ongoing issue](https://github.com/SpEcHiDe/NoPMsBot/issues/4) which
 
 ## Credits, and Thanks to
 
+* [SpEcHiDe](https://github.com/SpEcHiDe/NoPMsBot) 💙
 * [ThankTelegram](https://telegram.dog/ThankTelegram)
 * [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
